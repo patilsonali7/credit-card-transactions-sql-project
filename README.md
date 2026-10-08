@@ -1,49 +1,46 @@
 # Credit Card Transactions SQL Project
 
-## Project Overview
+## 📌 Project Overview
 
 This project focuses on analyzing credit card transaction data using SQL Server.
-The project contains SQL queries to solve different business-related problems
-using aggregations, CTEs, window functions, date functions, and conditional logic.
 
-## Objective
+The objective of this project is to solve real-world business problems using SQL
+and derive meaningful insights from customer transactions, spending patterns,
+card types, cities, and expense categories.
 
-The objective of this project is to analyze credit card transactions and
-extract useful business insights such as spending patterns, card-wise spending,
-city-wise spending, expense types, and transaction trends.
+## 🎯 Objectives
 
-## Tools Used
+- Analyze credit card transaction data
+- Identify spending patterns
+- Compare spending across cities and card types
+- Analyze expense categories
+- Calculate spending percentages
+- Perform month-over-month analysis
+- Analyze transaction patterns using window functions
+
+## 🛠️ Tools Used
 
 - SQL Server
 - SQL Server Management Studio (SSMS)
 
-## SQL Concepts Used
+## 📊 Dataset
 
-- SELECT
-- WHERE
-- GROUP BY
-- HAVING
-- ORDER BY
-- Aggregate Functions: SUM(), COUNT()
-- CASE WHEN
-- CTEs
-- Window Functions
-- ROW_NUMBER()
-- RANK()
-- LAG()
-- DATEPART()
-- DATEDIFF()
-- CROSS JOIN
-- CAST()
-- ROUND()
+The project uses a credit card transactions dataset containing transaction-level
+information such as:
 
-## Business Questions Solved
+- City
+- Card Type
+- Expense Type
+- Transaction Date
+- Transaction ID
+- Amount
 
-1. Find the top 5 cities with the highest spends and their percentage
-   contribution to total credit card spends.
+## 💡 Business Questions Solved
 
-2. Find the highest spend month and amount spent in that month for each
-   card type.
+1. Find the top 5 cities with the highest spends and their percentage contribution
+   to total credit card spends.
+
+2. Find the highest spend month and amount spent in that month for each card type.
 
 3. Find the transaction details for each card type when cumulative spending
    reaches 1,000,000.
@@ -57,29 +54,58 @@ city-wise spending, expense types, and transaction trends.
 7. Find the card type and expense type combination with the highest
    month-over-month growth in January 2014.
 
-8. Find the city with the highest total spend-to-total transaction ratio
-   during weekends.
+8. During weekends, find the city with the highest total spend-to-total
+   transaction ratio.
 
 9. Find the city that took the least number of days to reach its 500th
-   transaction after its first transaction.
+   transaction after the first transaction.
 
-## Key SQL Skills Demonstrated
+## 🧠 SQL Concepts Used
 
-This project demonstrates practical use of SQL for business analysis,
-including:
+- SELECT
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY
+- TOP
+- Aggregate Functions
+- SUM()
+- COUNT()
+- CASE WHEN
+- CTE (Common Table Expressions)
+- Window Functions
+- ROW_NUMBER()
+- RANK()
+- LAG()
+- DATEPART()
+- DATEDIFF()
+- CAST()
+- ROUND()
+- PARTITION BY
 
-- Data aggregation and grouping
+## 📂 Project Files
+
+| File | Description |
+|------|-------------|
+| `project1-CREDIT_CARD_TRANSACTIONS.sql` | SQL queries used to solve the business questions |
+| `credit_card_transactions.csv` | Credit card transaction dataset |
+| `README.md` | Project documentation |
+
+## 📈 Key Skills Demonstrated
+
+This project demonstrates practical SQL skills including:
+
+- Data aggregation
+- Filtering and grouping
 - Percentage calculations
-- Ranking and ordering
 - Running totals
+- Ranking
 - Window functions
-- Month-over-month analysis
-- Customer/city transaction sequencing
 - Date-based analysis
+- Month-over-month analysis
 - Conditional aggregation
+- Business problem solving
 
-## Project Structure
+## 👩‍💻 Author
 
-- `project1-CREDIT_CARD_TRANSACTIONS.sql` — SQL queries used to solve the
-  business questions.
-- `README.md` — Project documentation.
+**Sonali Patil**
